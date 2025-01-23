@@ -15,10 +15,11 @@ header {
     border-bottom: 5px solid rgb(120,88,56);
     width: 100%;
     text-decoration: none;
+    padding: 0.5em;
 }
 
 .logo {
-    height: 10px;
+    height: 30px;
     width: auto;
 }
 
@@ -28,12 +29,18 @@ nav {
     align-items: baseline;
 }
 
-.nav-links {
+.nav-links, a {
     text-decoration: none;
     list-style: none;
+    color: rgb(44,41,41);
+    font-weight: bold;
 }
 
 .nav-links > li {
-    margin-bottom: 0.5em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
+
+
+
+
 
