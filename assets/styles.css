@@ -43,7 +43,16 @@ nav {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(images/torso-of-nefertiti-landing.jpg)
+    background: url(images/torso-of-nefertiti-landing.jpg) no-repeat center center/cover;
+}
+
+.title-overlay {
+    color: rgb(239,233,225);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-overlay h1 {
+    font-size: 350%;
 }
 
 .footer-container {
