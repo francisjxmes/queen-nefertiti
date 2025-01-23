@@ -3,3 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: roboto;
+    color: rgb(44,41,41);
+    background-color: rgb(239,233,225);
+}
+
+header {
+    background-color: rgb(239,233,225);
+    border-bottom: 5px solid rgb(120,88,56);
+    width: 100%;
+}
+
+.logo {
+    height: 10px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul li {
+    text-decoration: none;
+}
