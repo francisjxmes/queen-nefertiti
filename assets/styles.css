@@ -6,7 +6,7 @@
 
 body {
     font-family: roboto;
-    color: rgb(44,41,41);
+    
     background-color: rgb(239,233,225);
 }
 
@@ -29,7 +29,7 @@ nav {
     align-items: baseline;
 }
 
-.nav-links, a {
+.navbar a {
     text-decoration: none;
     list-style: none;
     color: rgb(44,41,41);
@@ -38,6 +38,44 @@ nav {
 
 .nav-links > li {
     margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.footer-container {
+    background-color: rgb(44,41,41);
+    padding: 1rem;
+}
+
+.about-container,
+.navigation-links,
+.acknowledgements-container {
+    margin-bottom: 1rem;
+}
+
+
+.about-heading,
+.navigation-heading,
+.acknowledgements {
+    color: rgb(176,176,176);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-text,
+.footer-links,
+.acknowledgement-links {
+    color: rgb(176,176,176);
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+
+.footer-links, .acknowledgement-links, a {
+    color: rgb(176,176,176);
+    line-height: 1.2rem;
+}
+
+.copyright-info {
+    font-size: 1rem;
+    color: rgb(176,176,176);
 }
 
 
