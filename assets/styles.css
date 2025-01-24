@@ -190,6 +190,18 @@ h1 span {
     font-size: 2rem;
 }
 
+.fact-list {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    list-style-type: none;
+}
+
+.fact-item {
+    margin: 2rem 0 2rem 0;
+    border-top: 3px solid rgb(120, 88, 56);
+    padding-top: 2rem;
+}
+
+
 
 /*Related content section*/
 .related-section {
