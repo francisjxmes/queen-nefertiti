@@ -44,6 +44,7 @@ nav {
     height: 600px;
     width: 100%;
     background: url(images/torso-of-nefertiti-landing.jpg) no-repeat center center/cover;
+    border-bottom: 5px solid rgb(120,88,56);
 }
 
 .title-overlay {
@@ -53,6 +54,32 @@ nav {
 
 .title-overlay h1 {
     font-size: 350%;
+}
+
+span {
+    color: rgb(120,88,56);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.introduction-section {
+    padding: 1rem;
+}
+
+.introduction-to-nefertiti,
+.timeline-cta {
+    margin-bottom: 1rem;
+}
+
+
+.artifact-cards-container {
+    background-color: rgb(44,41,41);
+    padding: 1rem;
+}
+
+.artifact-cards-container h1 {
+    color: rgb(239,233,225);
 }
 
 .footer-container {
