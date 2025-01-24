@@ -9,9 +9,6 @@ body {
     background-color: rgb(44, 41, 41);
 }
 
-h1, h2, h3, p {
-    color: rgb(44, 42, 41);
-}
 
 footer {
     width: 100%;
@@ -172,6 +169,7 @@ h1 span {
 
 .timeline-text-container h2, p {
     margin-bottom: 1rem;
+    color: rgb(44, 42, 41);
 }
 
 /*Related content section*/
