@@ -45,15 +45,21 @@ nav {
     width: 100%;
     background: url(images/torso-of-nefertiti-landing.jpg) no-repeat center center/cover;
     border-bottom: 5px solid rgb(120,88,56);
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
 }
 
 .title-overlay {
     color: rgb(239,233,225);
     font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
 }
 
 .title-overlay h1 {
-    font-size: 350%;
+    font-size: 17vw;
+    justify-content: center;
+    align-items: center;
 }
 
 span {
