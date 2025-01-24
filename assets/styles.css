@@ -132,6 +132,47 @@ button {
     color: rgb(239, 233, 225);
 }
 
+.related-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 41, 41);
+}
+
+.related-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.related-content-container img {
+    width: 7rem;
+    height: auto;
+    border-radius: 20%;
+    margin-right: 1rem;
+}
+
+.related-content-container h2 {
+    font-size: 1rem;
+    color: rgb(239, 233, 225);
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+.related-content-container p {
+    font-size: 0.7rem;
+    color: rgb(239, 233, 225);
+    margin-bottom: 0.5rem;
+}
+
+.related-text-content a {
+    text-decoration: none;
+    color: rgb(239, 233, 225);
+    font-weight: bold;
+}
+
 .newsletter-container {
     background-color: rgb(239, 233, 225);
     padding: 2rem;
