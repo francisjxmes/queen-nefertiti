@@ -133,10 +133,12 @@ button {
 
 .timeline-heading h2 {
     font-weight: 300;
+    color: rgb(44, 42, 41);
 }
 
 .timeline-heading h1 {
     font-size: 2rem;
+    color: rgb(44, 42, 41);
 }
 
 h1 span {
@@ -184,19 +186,40 @@ h1 span {
 
 .fact-heading h2 {
     font-weight: 300;
+    color: rgb(44, 42, 41);
 }
 
 .fact-heading h1 {
     font-size: 2rem;
+    color: rgb(44, 42, 41);
 }
 
 .fact-list {
-    padding: 1.5rem 1rem 1.5rem 1rem;
+    padding: 0rem 1rem 3rem 1rem;
     list-style-type: none;
+    color: rgb(44, 42, 41);
 }
 
 .fact-item {
     margin: 2rem 0 2rem 0;
+    border-top: 3px solid rgb(120, 88, 56);
+    padding-top: 2rem;
+}
+
+.nested-fact-list {
+    border-top: 3px solid rgb(120, 88, 56);
+    list-style-type: disc;
+    padding-top: 2rem;
+}
+
+.nested-fact-list li {
+    list-style-type: disc;
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
+.first-fact {
+    margin: 0;
     border-top: 3px solid rgb(120, 88, 56);
     padding-top: 2rem;
 }
