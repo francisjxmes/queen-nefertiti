@@ -67,11 +67,36 @@ span {
     padding: 1rem;
 }
 
+.intro-heading {
+    margin-bottom: 0.5rem;
+}
+
 .introduction-to-nefertiti,
 .timeline-cta {
     margin-bottom: 1rem;
 }
 
+hr {
+    margin-bottom: 1rem;
+    border: solid 1px rgb(120,88,56);
+}
+
+.timeline-button-container button {
+    background-color: rgb(44,41,41);
+    padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+    border-style: none;
+    border-radius: 2rem;
+}
+
+button {
+    color: rgb(239,233,225);
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.fa-arrow-right {
+    margin-left: 0.5rem;
+}
 
 .artifact-cards-container {
     background-color: rgb(44,41,41);
