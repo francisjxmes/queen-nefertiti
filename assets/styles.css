@@ -130,7 +130,7 @@ button {
 }
 
 .timeline-heading {
-    padding: 3rem 1rem 3rem 1rem; 
+    padding: 2rem 1rem 2rem 1rem; 
     text-align: center;
 }
 
@@ -164,6 +164,14 @@ h1 span {
   border: 3px solid rgb(120, 88, 56);
   border-radius: 15px; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-text-container {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.timeline-text-container h2, p {
+    margin-bottom: 1rem;
 }
 
 /*Related content section*/
@@ -290,7 +298,7 @@ form button {
 .acknowledgement-links,
 a {
     color: rgb(176, 176, 176);
-    line-height: 1.2rem;
+    line-height: 1.8rem;
 }
 
 .copyright-info {
