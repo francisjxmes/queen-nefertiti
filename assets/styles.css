@@ -172,6 +172,25 @@ h1 span {
     color: rgb(44, 42, 41);
 }
 
+/*Did You Know Section*/
+.fact-section {
+    background-color: rgb(239, 233, 225);
+}    
+
+.fact-heading {
+    padding: 2rem 1rem 2rem 1rem; 
+    text-align: center;
+}
+
+.fact-heading h2 {
+    font-weight: 300;
+}
+
+.fact-heading h1 {
+    font-size: 2rem;
+}
+
+
 /*Related content section*/
 .related-section {
     display: flex;
