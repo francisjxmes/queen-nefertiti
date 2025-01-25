@@ -254,11 +254,13 @@ h1 span {
 small {
     font-size: 0.7rem;
     padding: 0.5rem 1rem 0 1rem;
+    margin-bottom: 1rem;
 }
 
 .artifact-info-content h2 {
     text-align: center;
     padding: 2rem 1rem 2rem 1rem;
+    color: rgb(44, 42, 41);
 }
 
 .artifact-info-content img {
@@ -270,7 +272,7 @@ small {
 }
 
 .artifact-info-content p {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .artifact-info-heading h2 {
@@ -283,7 +285,10 @@ small {
     color: rgb(44, 42, 41);
 }
 
-
+.artifact-info-content hr {
+    border: 3px solid rgb(120, 88, 56);
+    width: 60px;
+}
 
 /*Related content section*/
 .related-section {
@@ -493,6 +498,17 @@ a {
         padding-top: 2.5rem;
         padding-left: 1rem;
         border-left: 5px solid rgb(120, 88, 56);
+    }
+
+    .artifact-info-content img {
+        width: 95%;
+        height: 95%;
+        object-fit: cover;
+    }
+
+    small {
+        max-width: 93%;
+        margin-bottom: 1rem;
     }
 
 }
