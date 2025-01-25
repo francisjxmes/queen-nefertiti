@@ -74,8 +74,6 @@ nav {
     font-size: 1rem;
 }
 
-
-
 /*Introduction CTA Section*/
 span {
     color: rgb(120, 88, 56);
@@ -234,6 +232,7 @@ h1 span {
     padding-top: 2rem;
 }
 
+/*Artifact info section*/
 .artifact-info-heading {
     text-align: center;
     padding: 2rem 1rem 2rem 1rem;
@@ -303,13 +302,15 @@ small {
     background-color: rgb(44, 42, 41);
     font-weight: bold;
     margin: 2rem;
+    margin-bottom: 3rem;
     padding: 0.6rem 1.5rem;
     border-style: none;
     border-radius: 2rem;
-    
 }
 
-
+.fa-arrow-left {
+    margin-right: 0.5rem;
+}
 
 /*Bust of Nefertiti Section*/
 .artifact-gallery-section {
@@ -392,7 +393,6 @@ small {
     margin: 0;
     margin-bottom: 0.5rem;
 }
-
 
 .related-content-container p {
     font-size: 0.7rem;
@@ -494,6 +494,7 @@ a {
 .copyright-info {
     font-size: 1rem;
     color: rgb(176, 176, 176);
+    margin-left: 15px;
 }
 
 /*Media Queries for responsive design*/
@@ -606,6 +607,35 @@ a {
         padding: 1.5rem 1rem 1.5rem 1rem;
         height: 1000px;
         overflow-y: scroll;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .acknowledgement-links {
+        column-count: 2;
+        column-gap: 15px;
+    }
+
+    .acknowledgements-container {
+        margin-left: 30px;
+        width: 33%
+    }
+
+    .navigation-links {
+        width: 33%;
+        margin-left: 60px;
+    }
+
+    .about-container {
+        width: 33%;
+    }
+
+    .copyright-info {
+        margin-left: 15px;
     }
 
 }
