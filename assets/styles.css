@@ -59,13 +59,21 @@ nav {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 1rem;
 }
 
 .title-overlay h1 {
-    font-size: 17vw;
+    font-size: 3.5rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
+.title-overlay h2 {
+    font-size: 1rem;
+}
+
 
 
 /*Introduction CTA Section*/
