@@ -460,5 +460,23 @@ a {
         width: 35%;
     }
 
+    .fact-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fact-list {
+        border-left: 5px solid rgb(120, 88, 56);
+        padding-left: 1rem;
+        width: 65%;
+    }
+
+    .first-fact {
+        border: none;
+    }
+
+    .fact-heading {
+        width: 35%;
+    }
 
 }
