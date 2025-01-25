@@ -442,7 +442,23 @@ a {
         justify-content: space-between;
     }
 
+    .timeline-of-events-section {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .timeline-content-container {
+        border-left: 5px solid rgb(120, 88, 56);
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        width: 65%;
+        height: 1000px;
+        overflow-y: scroll;
+    }
+
+    .timeline-heading {
+        width: 35%;
+    }
 
 
 }
