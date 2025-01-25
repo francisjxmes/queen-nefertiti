@@ -416,3 +416,33 @@ a {
     font-size: 1rem;
     color: rgb(176, 176, 176);
 }
+
+/*Media Queries for responsive design*/
+@media screen and (min-width: 768px) {
+    .introduction-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .introduction-to-nefertiti {
+        justify-content: space-between;
+        margin-right: 1rem;
+        width: 50%;
+    }
+
+    .timeline-cta {
+        margin-left: 1rem;
+        width: 50%;
+    }
+
+    .related-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+
+}
