@@ -245,7 +245,7 @@ h1 span {
 
 small {
     font-size: 0.7rem;
-    padding: 0 1rem 0 1rem;
+    padding: 0.5rem 1rem 0 1rem;
 }
 
 .artifact-info-content h2 {
@@ -254,10 +254,11 @@ small {
 }
 
 .artifact-info-content img {
-    max-width: 100%;
+    width: 91%;
+    height: 91%;
+    object-fit: cover;
     border-radius: 15px;
-    height: auto;
-    padding: 2rem 1rem 1rem 1rem;
+    border: 3px solid rgb(120, 88, 56);
 }
 
 .artifact-info-content p {
