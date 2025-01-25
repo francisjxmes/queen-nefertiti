@@ -465,6 +465,10 @@ a {
         flex-direction: row;
     }
 
+    .fact-heading {
+        width: 35%;
+    }
+
     .fact-list {
         border-left: 5px solid rgb(120, 88, 56);
         padding-left: 1rem;
@@ -475,8 +479,20 @@ a {
         border: none;
     }
 
-    .fact-heading {
+    .artifact-info-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .artifact-info-heading {
         width: 35%;
+    }
+
+    .artifact-info-content {
+        width: 65%;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        border-left: 5px solid rgb(120, 88, 56);
     }
 
 }
