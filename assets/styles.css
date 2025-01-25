@@ -292,6 +292,25 @@ small {
     margin-bottom: 0.5rem;
 }
 
+.artifact-info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.artifact-info-content button {
+    text-decoration: none;
+    color: rgb(239, 233, 225);
+    background-color: rgb(44, 42, 41);
+    font-weight: bold;
+    margin: 2rem;
+    padding: 0.6rem 1.5rem;
+    border-style: none;
+    border-radius: 2rem;
+    
+}
+
+
+
 /*Bust of Nefertiti Section*/
 .artifact-gallery-section {
     background-color: rgb(239, 233, 225);
