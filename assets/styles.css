@@ -439,22 +439,22 @@ form label {
     font-family: roboto;
 }
 
-.fa-arrow-right {
+#signup-button .fa-arrow-right {
     color: rgb(239, 233, 225);
-    
+    display: flex;
+    text-decoration: none;
 }
 
-form button {
+#signup-button {
     background-color: rgb(44, 41, 41);
-    border-radius: 1.5rem;
+    width: 32px;
+    height: 22px;
+    border-radius: 15px;
     border-style: none;
     padding: 0.1rem;
+    display: inline-block;
+    text-decoration-line: none;
 }
-
-form button {
-    padding-right: 0.5rem;
-}
-
 
 .footer-container {
     background-color: rgb(44, 41, 41);
