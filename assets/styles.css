@@ -142,6 +142,7 @@ button {
 .timeline-heading h2 {
     font-weight: 300;
     color: rgb(44, 42, 41);
+    text-align: center;
 }
 
 .timeline-heading h1 {
@@ -289,6 +290,59 @@ small {
     border: 3px solid rgb(120, 88, 56);
     width: 60px;
     margin-bottom: 0.5rem;
+}
+
+/*Bust of Nefertiti Section*/
+.artifact-gallery-section {
+    background-color: rgb(239, 233, 225);
+}
+
+.bust-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bust-text-container h2, p {
+    color: rgb(44, 42, 41);
+    margin-bottom: 1rem;
+}
+
+.bust-text-container h2 {
+    text-align: center;
+}
+
+.bust-text-container {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+#bust-image {
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background: url('images/bust-of-nefertiti-1.jpg') no-repeat center center/cover;
+    border-bottom: 5px solid rgb(120, 88, 56);
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.bust-text-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(120, 88, 56);
+    margin-bottom: 1rem;
+}
+
+.bust-heading {
+    text-align: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.bust-heading h1 {
+    font-size: 2rem;
+    color: rgb(44, 42, 41);
 }
 
 /*Related content section*/
