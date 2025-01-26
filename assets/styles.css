@@ -96,6 +96,10 @@ span {
     margin-bottom: 1rem;
 }
 
+.timeline-cta h2 {
+    margin-top: 2rem;
+}
+
 hr {
     margin-bottom: 1rem;
     border: solid 1px rgb(120, 88, 56);
@@ -384,7 +388,10 @@ small {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+hr {
+    margin: 2rem 1rem 0 1rem;
 }
 
 /*Bust of Nefertiti Section*/
