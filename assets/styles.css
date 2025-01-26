@@ -101,8 +101,9 @@ span {
 }
 
 hr {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;;
     border: solid 1px rgb(120, 88, 56);
+    display: hidden;
 }
 
 .timeline-button-container button {
@@ -135,6 +136,10 @@ button {
 
 .artifact-cards-container span {
     font-size: 1.8rem;
+}
+
+.artifact-card-section {
+    padding-bottom: 2rem;
 }
 
 /*Timeline of events section*/
@@ -633,6 +638,7 @@ a {
     margin-left: 15px;
 }
 
+
 /*Media Queries for responsive design*/
 @media screen and (min-width: 768px) {
     .introduction-section {
@@ -652,6 +658,7 @@ a {
         width: 50%;
     }
 
+    /*Media querys for related content layout*/
     .related-section {
         display: flex;
         flex-direction: row;
@@ -675,6 +682,7 @@ a {
         width: 35%;
     }
 
+    /*Media querys for fact list layout*/
     .fact-section {
         display: flex;
         flex-direction: row;
@@ -728,6 +736,52 @@ a {
         margin-bottom: 1rem;
     }
 
+    /*Media querys for artifact gallery layout*/
+    .artifact-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        vertical-align: top;
+    }
+
+    .card {
+        max-width: 22%;
+        height: 300px;;
+        display: flex;
+        flex-direction: column;
+        vertical-align: top;
+        gap: 20px;
+        position: relative;
+    }
+
+    .card img {
+        width: 98%;
+    }
+
+    .card-text {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 500%;
+    }
+
+    .card-text h3 {
+        text-align: center;
+    }
+
+    .card-text p {
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .card-icon {
+        display: none;
+    }
+
+    /*Media queries for Bust section layout*/
     .bust-content-container {
         display: flex;
         flex-direction: row;
@@ -745,6 +799,7 @@ a {
         overflow-y: scroll;
     }
 
+    /*Media queries for footer layout*/
     .footer-container {
         display: flex;
         flex-direction: row;
@@ -774,4 +829,79 @@ a {
         margin-left: 15px;
     }
 
+    hr {
+        margin: 0;
+    }
+
+    .title-overlay h1 {
+        font-size: 17vw;
+    }
+
+    .title-overlay h2 {
+        font-size: 2vw;
+        position: absolute;
+        top: 85%;
+        left: 30%;
+    }
+
+    .title-overlay {
+        position: relative;
+    }
+
+    .timeline-cta {
+        position: relative;
+        text-align: center;
+    }
+
+    .timeline-cta button {
+        position: absolute;
+        bottom: 15%;
+        left: 25%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        position: relative;
+        height: 400px;
+    }
+
+    .card.text p {
+        position: absolute;
+        bottom: 5%;
+        font-size: 0.8rem;
+    }
+
+    .timeline-cta {
+        position: relative;
+    }
+
+    .timeline-cta button {
+        position: absolute;
+        bottom: 15%;
+        left: 25%;
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    .title-overlay h1 {
+        font-size: 17vw;
+    }
+
+    .title-overlay h2 {
+        font-size: 2vw;
+        position: absolute;
+        top: 85%;
+        left: 30%;
+    }
+
+    .title-overlay {
+        position: relative;
+    }
+
+
+    
 }
