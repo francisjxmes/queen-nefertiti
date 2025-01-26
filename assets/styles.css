@@ -118,6 +118,7 @@ button {
     margin-left: 0.5rem;
 }
 
+/*Artifacts CTA section*/
 .artifact-cards-container {
     background-color: rgb(44, 41, 41);
     padding: 1rem;
@@ -125,6 +126,11 @@ button {
 
 .artifact-cards-container h1 {
     color: rgb(239, 233, 225);
+    text-align: center;
+}
+
+.artifact-cards-container span {
+    font-size: 1.8rem;
 }
 
 /*Timeline of events section*/
