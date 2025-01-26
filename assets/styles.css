@@ -457,6 +457,7 @@ hr {
     display: flex;
     flex-direction: column;
     background-color: rgb(44, 41, 41);
+    padding-left: 2rem;
 }
 
 .related-content-container {
