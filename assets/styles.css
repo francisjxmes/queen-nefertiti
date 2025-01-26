@@ -228,12 +228,10 @@ h1 span {
     padding-bottom: 2.5rem;
 }
 
-
-
 .nested-fact-list {
     border-top: 3px solid rgb(120, 88, 56);
     list-style-type: disc;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
 }
 
 .nested-fact-list li {
@@ -718,6 +716,7 @@ a {
         flex-direction: row;
     }
 
+    /*Media querys for Artifact information section*/
     .artifact-info-heading {
         width: 35%;
     }
@@ -996,6 +995,10 @@ a {
     }
 
     .fact-list li {
+        font-size: 1.2rem;
+    }
+
+    .nested-fact-list p {
         font-size: 1.2rem;
     }
 }
