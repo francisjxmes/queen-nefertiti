@@ -217,16 +217,18 @@ h1 span {
 }
 
 .fact-list {
-    padding: 0rem 1rem 3rem 1rem;
+    padding: 3rem 3rem 3rem 3rem;
     list-style-type: none;
     color: rgb(44, 42, 41);
 }
 
 .fact-item {
-    margin: 2rem 0 2rem 0;
     border-top: 3px solid rgb(120, 88, 56);
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
+
+
 
 .nested-fact-list {
     border-top: 3px solid rgb(120, 88, 56);
@@ -243,7 +245,7 @@ h1 span {
 .first-fact {
     margin: 0;
     border-top: 3px solid rgb(120, 88, 56);
-    padding-top: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 /*Artifact info section*/
@@ -704,7 +706,6 @@ a {
 
     .fact-list {
         border-left: 5px solid rgb(120, 88, 56);
-        padding-left: 1rem;
         width: 65%;
     }
 
@@ -924,65 +925,77 @@ a {
         height: 800px;
     }
 
-    /*Media querys for 1440px (large laptops)*/
-    @media screen and (min-width: 768px) {
-        .introduction-to-nefertiti {
-            max-width: 40%;
-            padding-left: 5%;
-            padding-top: 2.5%;
-        }
-
-        .timeline-cta {
-            max-width: 60%;
-            padding-right: 5%;
-            padding-top: 2.5%;
-        }
-
-        .intro-heading {
-            font-size: 2.5rem;
-        }
-
-        .introduction-section span {
-            font-size: 3rem;
-        }
-
-        .intro-text {
-            font-size: 1.5rem;
-        }
-
-        .timeline-cta h2 {
-            font-size: 2.5rem;
-        }
-
-        .artifact-card-section h1 {
-            font-size: 2.5rem;
-            padding: 3rem 2rem 1 2rem;
-        }
-
-        .artifact-card-section span {
-            font-size: 3rem;   
-        }
-
-        .introduction-section {
-            margin-bottom: 3rem;
-        }
-
-        .artifact-card-container {
-            margin-top: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        .card {
-            height: 30rem;
-        }
-
-        .card-text h3 {
-            font-size: 1.3rem;
-        }
-
-        .card-text p {
-            font-size: 1rem;
-        }
+    .related-section {
+        padding-right: 7rem;
+        padding-left: 7rem;
     }
-    
+
+    .related-content-container {
+        width: 40%;
+    }
+}
+
+/*Media querys for 1440px (large laptops)*/
+@media screen and (min-width: 1440px) {
+    .introduction-to-nefertiti {
+        max-width: 40%;
+        padding-left: 5%;
+        padding-top: 2.5%;
+    }
+
+    .timeline-cta {
+        max-width: 60%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+    }
+
+    .intro-heading {
+        font-size: 2.5rem;
+    }
+
+    .introduction-section span {
+        font-size: 3rem;
+    }
+
+    .intro-text {
+        font-size: 1.5rem;
+    }
+
+    .timeline-cta h2 {
+        font-size: 2.5rem;
+    }
+
+    .artifact-card-section h1 {
+        font-size: 2.5rem;
+        padding: 3rem 2rem 1 2rem;
+    }
+
+    .artifact-card-section span {
+        font-size: 3rem;   
+    }
+
+    .introduction-section {
+        margin-bottom: 3rem;
+    }
+
+    .artifact-card-container {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        height: 30rem;
+    }
+
+    .card-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-text p {
+        font-size: 1rem;
+    }
+
+    .fact-list li {
+        font-size: 1.2rem;
+    }
 }
