@@ -27,26 +27,29 @@
 	<!-- Header -->
   <header>
     
-    <a href="index.html" aria-label="Go to home page">
+    <nav class="navbar">
+
       <img src="assets/images/nefertiti-logo.svg" alt="logo" class="logo">
-    </a>
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-  
-		<nav class="navbar">
-  		<!-- Nav links -->
- 		 	<ul class="nav-links">
-				<li>
-					<a href="timeline-of-events.html">Timeline of Events</a>
-				</li>
-				<li>
-					<a href="artifact-cards.html">Artifacts Gallery</a>
-				</li>
-				<li>
+
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+
+      <label id="overlay" for="sidebar-active"></label>
+
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
+
+        
+        <a href="timeline-of-events.html">Timeline of Events</a>								
+					<a href="artifact-cards.html">Artifacts Gallery</a>						
 					<a href="did-you-know.html">Did You Know?</a>
-				</li>
-  		</ul>
-		</nav>
+      </div>
+	
+    </nav>
 
 	</header>
 
