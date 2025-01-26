@@ -118,6 +118,15 @@ nav svg {
         padding-left: 20px;
     }
 
+    #sidebar-active:checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
 }
 
 /*nav {
