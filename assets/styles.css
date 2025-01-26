@@ -19,15 +19,58 @@ header {
     border-bottom: 5px solid rgb(120, 88, 56);
     width: 100%;
     text-decoration: none;
-    padding: 0.5em;
 }
 
 .logo {
     height: 30px;
-    width: auto;
+    
+    
 }
 
 nav {
+    height: 60px;
+    background-color: rgb(239, 233, 225);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(44, 42, 41);
+    font-weight: bold;
+}
+
+nav img {
+    margin-right: auto
+}
+
+nav a:hover {
+    background-color: rgb(120,88,56);
+    color: rgb(239, 233, 225);
+    font-weight: bold;
+}
+
+nav svg {
+    fill: rgb(44, 42, 41);
+}
+
+#sidebar-active {
+    display: none;
+}
+
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -42,7 +85,7 @@ nav {
 
 .nav-links > li {
     margin: 0.5em;
-}
+}*/
 
 #hero-image {
     height: 600px;
@@ -628,8 +671,8 @@ form label {
 }
 
 .footer-links,
-.acknowledgement-links,
-a {
+.acknowledgement-links
+ {
     color: rgb(176, 176, 176);
     line-height: 1.8rem;
 }
@@ -639,6 +682,7 @@ a {
     color: rgb(176, 176, 176);
     margin-left: 15px;
 }
+
 
 
 /*Media Queries for responsive design*/
