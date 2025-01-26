@@ -25,6 +25,10 @@ header {
     margin-bottom: 60px;
 }
 
+main {
+    margin-top: 60px;
+}
+
 .logo {
     height: 100%;
     padding: 15px;
@@ -47,7 +51,7 @@ nav {
     justify-content: flex-end;
 }
 
-nav a {
+nav .link {
     height: 100%;
     padding: 0 20px;
     display: flex;
@@ -61,7 +65,7 @@ nav img {
     margin-right: auto
 }
 
-nav a:hover {
+nav .link:hover {
     background-color: rgb(120,88,56);
     color: rgb(239, 233, 225);
     font-weight: bold;
@@ -80,75 +84,6 @@ nav svg {
     padding-right: 15px;
     padding-top: 15px;
 }
-
-@media (max-width: 344px) {
-    .links-container {
-        
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 10;
-        width: 300px;
-        background-color: rgb(44, 42, 41);
-        box-shadow: -5px 0 5px rgba (0, 0, 0, 0.25);
-        transition: 0.5s ease-out;
-    }
-
-    nav a {
-        box-sizing: border-box;
-        height: auto;
-        width: 100%;
-        padding: 20px 30px;
-        justify-content: flex-start;
-        color: rgb(239, 233, 225);
-    }
-
-    .open-sidebar-button, .close-sidebar-button {
-        display: block;
-    }
-
-    #sidebar-active:checked ~ .links-container {
-        right: 0;
-    }
-
-    .close-sidebar-button svg {
-        fill: rgb(239, 233, 225);
-    }
-
-    .close-sidebar-button {
-        padding-left: 20px;
-    }
-
-    #sidebar-active:checked ~ #overlay {
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9;
-    }
-
-}
-
-/*nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.navbar a {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(44, 41, 41);
-    font-weight: bold;
-}
-
-.nav-links > li {
-    margin: 0.5em;
-}*/
 
 #hero-image {
     height: 600px;
@@ -323,7 +258,7 @@ h1 span {
 }
 
 .fact-list {
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 0 2rem 3rem 2rem;
     list-style-type: none;
     color: rgb(44, 42, 41);
 }
@@ -350,6 +285,7 @@ h1 span {
     margin: 0;
     border-top: 3px solid rgb(120, 88, 56);
     padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 /*Artifact info section*/
@@ -748,6 +684,57 @@ form label {
 
 
 
+@media (max-width: 344px) {
+    .links-container {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 300px;
+        background-color: rgb(44, 42, 41);
+        box-shadow: -5px 0 5px rgba (0, 0, 0, 0.25);
+        transition: 0.5s ease-out;
+    }
+
+    nav .link {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+        color: rgb(239, 233, 225);
+    }
+
+    .open-sidebar-button, .close-sidebar-button {
+        display: block;
+    }
+
+    #sidebar-active:checked ~ .links-container {
+        right: 0;
+    }
+
+    .close-sidebar-button svg {
+        fill: rgb(239, 233, 225);
+    }
+
+    .close-sidebar-button {
+        padding-left: 20px;
+    }
+
+    #sidebar-active:checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+}
+
 /*Media Queries for responsive design*/
 @media screen and (min-width: 768px) {
     .introduction-section {
@@ -813,10 +800,13 @@ form label {
     .fact-list {
         border-left: 5px solid rgb(120, 88, 56);
         width: 65%;
+        border-top: none;
+        padding-top: 3rem;
     }
 
     .first-fact {
         border: none;
+        padding-top: 0;
     }
 
     .artifact-info-section {
@@ -913,7 +903,7 @@ form label {
         width: 65%;
         border-left: 5px solid rgb(120,88,56);
         padding: 1.5rem 3rem 1.5rem 3rem;
-        height: 1000px;
+        height: 1200px;
         overflow-y: scroll;
     }
 
@@ -1042,8 +1032,40 @@ form label {
     }
 
     #bust-image {
-        height: 500px;
+        height: 400px;
     }
+
+    .artifact-info-content {
+        padding: 3rem 4rem 3rem 4rem;
+    }
+
+    .bust-text-container {
+        padding: 3rem 4rem 3rem 4rem;
+    }
+
+    .timeline-cta button,
+    .artifact-info-content button {
+        cursor: pointer;
+        transition: ease 0.2s;
+    }
+
+    .timeline-cta button:hover,
+    .artifact-info-content button:hover {
+        opacity: 3s;
+        background-color:rgb(120, 88, 56);
+        color: rgb(239, 233, 225);
+    }
+
+    .related-content-container a {
+        cursor: pointer;
+        transition: ease 0.2s;
+    }
+
+    .related-content-container a:hover {
+        opacity: 3s;
+        color: rgb(176, 176, 176);
+    }
+
 }
 
 /*Media querys for 1440px (large laptops)*/
@@ -1119,6 +1141,14 @@ form label {
     }
 
     #bust-image {
-        height: 700px;
+        height: 600px;
+    }
+
+    .artifact-info-content p {
+        font-size: 1.2rem;
+    }
+
+    .artifact-info-content small {
+        font-size: 1rem;
     }
 }
