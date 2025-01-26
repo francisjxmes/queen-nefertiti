@@ -923,6 +923,65 @@ a {
         height: 800px;
     }
 
+    /*Media querys for 1440px (large laptops)*/
+    @media screen and (min-width: 768px) {
+        .introduction-to-nefertiti {
+            max-width: 40%;
+            padding-left: 5%;
+            padding-top: 2.5%;
+        }
 
+        .timeline-cta {
+            max-width: 60%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+        }
+
+        .intro-heading {
+            font-size: 2.5rem;
+        }
+
+        .introduction-section span {
+            font-size: 3rem;
+        }
+
+        .intro-text {
+            font-size: 1.5rem;
+        }
+
+        .timeline-cta h2 {
+            font-size: 2.5rem;
+        }
+
+        .artifact-card-section h1 {
+            font-size: 2.5rem;
+            padding: 3rem 2rem 1 2rem;
+        }
+
+        .artifact-card-section span {
+            font-size: 3rem;   
+        }
+
+        .introduction-section {
+            margin-bottom: 3rem;
+        }
+
+        .artifact-card-container {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            height: 30rem;
+        }
+
+        .card-text h3 {
+            font-size: 1.3rem;
+        }
+
+        .card-text p {
+            font-size: 1rem;
+        }
+    }
     
 }
