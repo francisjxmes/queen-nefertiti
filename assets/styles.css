@@ -441,6 +441,14 @@ small {
     align-items: center;
 }
 
+.card-icon a {
+    text-decoration: none;
+}
+
+.fa-greater-than {
+    color: rgb(239, 233, 225);
+}
+
 hr {
     margin: 2rem 1rem 0 1rem;
 }
