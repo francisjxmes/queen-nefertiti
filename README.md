@@ -12,30 +12,28 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Home Page
 * Fixed header for easy navigation that is responsive to mobile, tablet and larger screens.
-- image
+![Home Page Landing image](assets/images/hero-landing.png)
 * Full width landing hero image with overlayed text letting the useer know exactly what the website is for
 * An introduction section with a call to action button linking to the Timeline of Events.
 * A small preview of the Artifacts Gallery on the home page for easy navigation and exploration of the other pages relating to the artifacts.
--image
+![Artifact call to action section image](assets/images/artifacts-cta.png)
 
 ### Timeline of Events
 * A Timeline of Events explaining significant moments in Queen Nefertiti's life.
--image
+![Timeline of events section](assets/images/timeline.png)
 * A supporting video for a more dynamic, multimedia learning experience.
-![Alt](assets/images/)
+![Timeline video section](assets/images/timeline-video.png)
 
 ### Artifact Gallery
 * An Artifact Gallery featuring detailed information on items linked to Nefertiti's era.
-![Alt](assets/images/)
-
 
 * The Artifact Gallery cards are clickable links that open a more detailed section on the artifacts
-![Alt](assets/images/)
+![Artifacts gallery image](assets/images/artifact-gallery.png)
 * This page includes a link back to the gallery for easy navigation.
 
 ### Did You Know?
 * A Did You Know? section for users seeking fast facts about the Queen and her era.
-![Alt](assets/images/)
+![Did You Know? facts](assets/images/did-you-know-facts.png)
 
 ### Newsletter Signup
 * A newsletter signup form that appears on all pages.
@@ -43,10 +41,10 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Related Content
 * A related content section with links to the other pages
-![Alt](assets/images/) 
+![Related Content section](assets/images/related-content.png) 
 
 ### Footer
-![Alt](assets/images/)
+![Footer section](assets/images/footer.png)
 
 * The footer includes information about this website.
 * Secondary navigation links
