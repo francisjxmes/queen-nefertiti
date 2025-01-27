@@ -22,28 +22,32 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 * A Timeline of Events explaining significant moments in Queen Nefertiti's life.
 -image
 * A supporting video for a more dynamic, multimedia learning experience.
-- image
+![Alt](assets/images/)
 
 ### Artifact Gallery
 * An Artifact Gallery featuring detailed information on items linked to Nefertiti's era.
--image of gallery
+![Alt](assets/images/)
+
+
 * The Artifact Gallery cards are clickable links that open a more detailed section on the artifacts
--image of detailed artifact
+![Alt](assets/images/)
 * This page includes a link back to the gallery for easy navigation.
 
 ### Did You Know?
 * A Did You Know? section for users seeking fast facts about the Queen and her era.
+![Alt](assets/images/)
 
 ### Newsletter Signup
 * A newsletter signup form that appears on all pages.
--image
+![Alt](assets/images/)
 
 ### Related Content
 * A related content section with links to the other pages
--image 
+![Alt](assets/images/) 
 
 ### Footer
--image
+![Alt](assets/images/)
+
 * The footer includes information about this website.
 * Secondary navigation links
 * Links to sources used for the content for this website.
