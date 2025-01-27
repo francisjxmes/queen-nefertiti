@@ -694,7 +694,7 @@ form label {
 
 
 
-@media (max-width: 344px) {
+@media (max-width: 768px) {
     .links-container {
         
         flex-direction: column;
