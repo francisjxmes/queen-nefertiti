@@ -108,6 +108,7 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 ### Media
 
 
+
 example: 
 * The text for the Home page was taken from Wikipedia Article A
 
