@@ -12,17 +12,22 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Home Page
 * Fixed header for easy navigation that is responsive to mobile, tablet and larger screens.
-![Home Page Landing image](assets/images/hero-landing.png)
+![Header image](assets/images/header.png)
+
 * Full width landing hero image with overlayed text letting the useer know exactly what the website is for
+![Home Page Landing image](assets/images/hero-landing.png)
+
 * An introduction section with a call to action button linking to the Timeline of Events.
+![Introduction section image](assets/images/introduction.png)
+
 * A small preview of the Artifacts Gallery on the home page for easy navigation and exploration of the other pages relating to the artifacts.
 ![Artifact call to action section image](assets/images/artifacts-cta.png)
 
 ### Timeline of Events
 * A Timeline of Events explaining significant moments in Queen Nefertiti's life.
-![Timeline of events section](assets/images/timeline.png)
+![Timeline of events image](assets/images/timeline.png)
 * A supporting video for a more dynamic, multimedia learning experience.
-![Timeline video section](assets/images/timeline-video.png)
+![Timeline video image](assets/images/timeline-video.png)
 
 ### Artifact Gallery
 * An Artifact Gallery featuring detailed information on items linked to Nefertiti's era.
@@ -33,7 +38,7 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Did You Know?
 * A Did You Know? section for users seeking fast facts about the Queen and her era.
-![Did You Know? facts](assets/images/did-you-know-facts.png)
+![Did You Know? facts image](assets/images/did-you-know-facts.png)
 
 ### Newsletter Signup
 * A newsletter signup form that appears on all pages.
@@ -41,10 +46,10 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Related Content
 * A related content section with links to the other pages
-![Related Content section](assets/images/related-content.png) 
+![Related Content image](assets/images/related-content.png) 
 
 ### Footer
-![Footer section](assets/images/footer.png)
+![Footer image](assets/images/footer.png)
 
 * The footer includes information about this website.
 * Secondary navigation links
