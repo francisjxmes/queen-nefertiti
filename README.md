@@ -1,67 +1,54 @@
 # Queen Nefertiti
 
-1. overview of my project. 
-   example:
-   "Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club."
+# Overview
+
+The Queen Nefertiti History Website is an engaging, user-friendly platform that provides an in-depth look into the life, reign, and legacy of Queen Nefertiti, one of ancient Egypt's most iconic figures. Designed for casual learners, history enthusiasts, educators, and researchers, the website aims to make historical learning accessible and visually captivating.
+
+The interface complements the theme of ancient Egypt, utilizing a color scheme inspired by artifacts and a design that balances historical accuracy with modern usability.
 
 ![Am I Responsive Screenshot](assets/images/am-i-responsive.png)
 
-## Features
+## Key Features
 
-## Shared Features
-* Navigation Bar
-(image)
-* Related Content links
-(image)
-* Newsletter signup
-(image)
-* Footer content
-(image)
+### Home Page
+* Fixed header for easy navigation that is responsive to mobile, tablet and larger screens.
+- image
+* Full width landing hero image with overlayed text letting the useer know exactly what the website is for
+* An introduction section with a call to action button linking to the Timeline of Events.
+* A small preview of the Artifacts Gallery on the home page for easy navigation and exploration of the other pages relating to the artifacts.
+-image
 
-## Homepage
-* Landing page image
-(image)
-* Introduction section Timeline of Events CTA
-(image)
-* Artifact Gallery CTA
-(image)
+### Timeline of Events
+* A Timeline of Events explaining significant moments in Queen Nefertiti's life.
+-image
+* A supporting video for a more dynamic, multimedia learning experience.
+- image
 
-## Timeline of Events
-* Layout style and landing image/video
-(image)
-* Content structure
-(image) 
+### Artifact Gallery
+* An Artifact Gallery featuring detailed information on items linked to Nefertiti's era.
+-image of gallery
+* The Artifact Gallery cards are clickable links that open a more detailed section on the artifacts
+-image of detailed artifact
+* This page includes a link back to the gallery for easy navigation.
 
-## Artifact Gallery
-* Bust of Nefertiti
-(image)
-* Artifacts gallery cards
-(image)
+### Did You Know?
+* A Did You Know? section for users seeking fast facts about the Queen and her era.
 
-## Artifacts information
-* Content structure
-* Content info
-(image)
+### Newsletter Signup
+* A newsletter signup form that appears on all pages.
+-image
 
-## Did you know
-* Content structure
-* Content info
-(image)
+### Related Content
+* A related content section with links to the other pages
+-image 
 
-## Features Left to Implement
+### Features Left to Implement
 * 3D model of Nefertiti Bust
 * Interactive Map of ancient Egypt
 
 ## Testing
 
-example:
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Validator Testing
 
