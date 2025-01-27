@@ -12,8 +12,6 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Home Page
 * Fixed header for easy navigation that is responsive to mobile, tablet and larger screens.
-![Header image](assets/images/header.png)
-
 * Full width landing hero image with overlayed text letting the useer know exactly what the website is for
 ![Home Page Landing image](assets/images/hero-landing.png)
 
