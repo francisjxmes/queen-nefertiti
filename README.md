@@ -42,11 +42,43 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 * A related content section with links to the other pages
 -image 
 
+### Footer
+-image
+* The footer includes information about this website.
+* Secondary navigation links
+* Links to sources used for the content for this website.
+* Links to external websites open in a seperate tab
+* Copyright information
+
 ### Features Left to Implement
 * 3D model of Nefertiti Bust
 * Interactive Map of ancient Egypt
 
 ## Testing
+
+### Navigation
+* I have tested all links and buttons to ensure they work and are linked to the correct section/page.
+* I have tested all of the links to external websites in the footer
+
+### Responsiveness
+* I have tested the website across multiple screens to ensure the layout responds well and is as intended.
+
+### Media Functionality
+* I have tested that the video plays as intended and does not autoplay
+* All images display and loads as expected
+
+### Content Accuracy
+* I have checked for grammatical errors and proper display of the text
+
+### Loading Speed
+* I have tested the website loading speed to ensure there are no delays
+
+### Broken Links
+* I have tested that any broken links are now working as intended.
+
+### Accessibility
+
+### Cross Browser Compatibility
 
 
 
