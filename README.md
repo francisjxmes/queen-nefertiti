@@ -16,7 +16,7 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 ![Home Page Landing image](assets/images/hero-landing.png)
 
 * An introduction section with a call to action button linking to the Timeline of Events.
-![Introduction section image](assets/images/introduction.png)
+![Introduction section image](assets/images/introduction-section.png)
 
 * A small preview of the Artifacts Gallery on the home page for easy navigation and exploration of the other pages relating to the artifacts.
 ![Artifact call to action section image](assets/images/artifacts-cta.png)
