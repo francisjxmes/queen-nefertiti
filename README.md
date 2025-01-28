@@ -89,6 +89,13 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### HTML
 
+Bugs
+* ul not allowed as child element of ul - I removed and used another element.
+* h3 not allowed as child of ul - I placed it outside of the ul element.
+* Button not allowed as a child of the anchor tag. - I removed the button and styled the anchor tag as a button.
+* A stray </a> was found. I removed it
+ 
+
 ### CSS
 
 ### Bugs
