@@ -58,7 +58,7 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 
 ### Newsletter Signup
 * A newsletter signup form that appears on all pages.
-![Alt](assets/images/)
+![Newsletter section](assets/images/newsletter.png)
 
 ### Related Content
 * A related content section with links to the other pages
