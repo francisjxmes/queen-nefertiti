@@ -1081,7 +1081,15 @@ form button {
         color: rgb(239, 233, 225);
     }
 
-    
+    .artifact-cta-button a {
+        cursor: pointer;
+        transition: ease 0.2s;
+    }
+
+    .artifact-cta-button a:hover {
+        background-color:rgb(120, 88, 56);
+        color: rgb(239, 233, 225);
+    }
 
 }
 
