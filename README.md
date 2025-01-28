@@ -24,6 +24,26 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 * Using mobile friendly, responsive design
 * Simple navigation (clear menus, and CTA links)
 
+## Features and Content Needed 
+
+### Topics
+* Landing page (striking image and introduction) 
+* Timeline of events (early life, reign, relationships)
+* Artifacts (images and information on discovery)
+* Did you know? (quick and interesting facts)
+
+### Content
+* Text
+* Images
+* Videos
+* Interactive elements
+
+### Required Assets
+* Historical images
+* Images of artifacts
+* Images of Nefertiti's Bust
+* Information video
+
 ![Am I Responsive Screenshot](assets/images/am-i-responsive.png)
 
 ## Key Features
