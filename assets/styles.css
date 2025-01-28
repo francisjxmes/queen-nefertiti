@@ -145,7 +145,6 @@ span {
 hr {
     margin-bottom: 2rem;;
     border: solid 1px rgb(120, 88, 56);
-    display: hidden;
 }
 
 .timeline-button-container a {
@@ -670,7 +669,6 @@ form button {
         z-index: 10;
         width: 300px;
         background-color: rgb(44, 42, 41);
-        box-shadow: -5px 0 5px rgba (0, 0, 0, 0.25);
         transition: 0.5s ease-out;
     }
 
@@ -1036,7 +1034,6 @@ form button {
 
     .timeline-cta button:hover,
     .artifact-info-content button:hover {
-        opacity: 3s;
         background-color:rgb(120, 88, 56);
         color: rgb(239, 233, 225);
     }
@@ -1047,7 +1044,6 @@ form button {
     }
 
     .related-content-container a:hover {
-        opacity: 3s;
         color: rgb(176, 176, 176);
     }
 
@@ -1058,7 +1054,6 @@ form button {
     }
 
     .footer-links a:hover {
-        opacity: 3s;
         color: rgb(239, 233, 225);
     }
 
@@ -1069,7 +1064,6 @@ form button {
     }
 
     .acknowledgement-links a:hover {
-        opacity: 3s;
         color: rgb(239, 233, 225);
     }
 
@@ -1109,7 +1103,7 @@ form button {
 
     .artifact-card-section h1 {
         font-size: 2.5rem;
-        padding: 3rem 2rem 1 2rem;
+        padding: 3rem 2rem 1rem 2rem;
     }
 
     .artifact-card-section span {

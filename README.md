@@ -98,6 +98,12 @@ Bugs
 
 ### CSS
 
+Bugs 
+* Value Error: removed display: hidden on hr element.
+* Removed invalid values from .link-container
+* Missing value on padding. -fixed.
+
+
 ### Bugs
 
 ### Deployment
