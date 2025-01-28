@@ -618,6 +618,7 @@ form button {
     display: inline-block;
     text-decoration-line: none;
     margin-left: 0.5rem;
+    margin-top: 0.8rem;
     color: rgb(239, 233, 225);
     font-weight: bold;
 }
@@ -1040,14 +1041,14 @@ form button {
         padding: 3rem 4rem 3rem 4rem;
     }
 
-    .timeline-cta button,
-    .artifact-info-content button {
+    .timeline-cta a,
+    .artifact-info-content a {
         cursor: pointer;
         transition: ease 0.2s;
     }
 
-    .timeline-cta button:hover,
-    .artifact-info-content button:hover {
+    .timeline-cta a:hover,
+    .artifact-info-content a:hover {
         background-color:rgb(120, 88, 56);
         color: rgb(239, 233, 225);
     }
@@ -1088,6 +1089,16 @@ form button {
 
     .artifact-cta-button a:hover {
         background-color:rgb(120, 88, 56);
+        color: rgb(239, 233, 225);
+    }
+
+    form button {
+        cursor: pointer;
+        transition: ease 0.2s;
+    }
+
+    form button:hover {
+        background-color: rgb(120, 88, 56);
         color: rgb(239, 233, 225);
     }
 
