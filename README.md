@@ -6,6 +6,24 @@ The Queen Nefertiti History Website is an engaging, user-friendly platform that 
 
 The interface complements the theme of ancient Egypt, utilizing a color scheme inspired by artifacts and a design that balances historical accuracy with modern usability.
 
+## User Needs
+
+### Target Audience 
+* History Enthusiasts 
+* Students or researchers
+* Casual browsers interested in Ancient Egypt
+
+### User Goals
+* Learn about Nefertiti's life
+* Engage with visually appealing content that is reliable
+* Find information that is organised and easy to navigate
+
+### Addressing User Needs
+* Provide accurate and well-researched information (her role, achievements and mysteries)
+* Visually engaging images of Nefertiti bust and artifacts.
+* Using mobile friendly, responsive design
+* Simple navigation (clear menus, and CTA links)
+
 ![Am I Responsive Screenshot](assets/images/am-i-responsive.png)
 
 ## Key Features
