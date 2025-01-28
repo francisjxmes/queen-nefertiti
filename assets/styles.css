@@ -159,6 +159,20 @@ hr {
     text-decoration: none;
 }
 
+.artifact-cta-button a {
+    background-color: rgb(239, 233, 225);
+    padding: 0.6rem 1.5rem;
+    border-style: none;
+    border-radius: 2rem;
+    color: rgb(44, 42, 41);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.artifact-cta-button {
+    margin-top: 2.5rem;
+}
+
 .fa-arrow-right {
     margin-left: 0.5rem;
 }
