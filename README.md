@@ -82,8 +82,7 @@ The interface complements the theme of ancient Egypt, utilizing a color scheme i
 * I have tested that any broken links are now working as intended.
 
 ### Accessibility
-
-### Cross Browser Compatibility
+* I have tested my web pages using Lighthouse in Dev Tools and fixed any issues, keeping a high score.
 
 ## Validator Testing
 
@@ -121,6 +120,12 @@ Bugs
 
 ## Credits
 
+- Header and responsive nav bar credit to: [Coding2go](https://www.youtube.com/watch?v=8eFeIFKAKHw&list=PLx7XtnNwKaYwtHlY0UNAkb9QiWvXiKtNt&index=2)
+- Guidance on Flex Box system credits to: [Coding2go](https://www.youtube.com/watch?v=8eFeIFKAKHw&list=PLx7XtnNwKaYwtHlY0UNAkb9QiWvXiKtNt&index=2)
+- Button styling and hovering effects tutorial credits to: [SuperSimpleDev](https://www.youtube.com/watch?v=G3e-cpL7ofc&list=PLx7XtnNwKaYwtHlY0UNAkb9QiWvXiKtNt&index=1)
+- Steps to embedding a video from youtube into HTML credit to: [Web Dev Tutorials](https://www.youtube.com/watch?v=ly36kn0ug4k&list=PLx7XtnNwKaYwtHlY0UNAkb9QiWvXiKtNt&index=3)
+- The arrow icons on the buttons taken from [Font Awesome](https://fontawesome.com/icons)
+
 ### Content
 
 - The text in the introduction section was taken from [history.com](https://www.history.com/topics/ancient-egypt/nefertiti)
@@ -134,6 +139,7 @@ Bugs
 - The Nefertiti bust images on the artifacts gallery was taken from [smb.museum](https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/)
 - The artifacts images on the gallery page was taken from [metmuseum.org](https://www.metmuseum.org/search-results?q=nefertiti+amarna+period&searchFacet=Art)
 - The video on the Timeline of Events page was taken from [National Geographic Youtube Channel](https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A)
+
 
 
 
