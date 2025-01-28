@@ -123,7 +123,17 @@ Bugs
 
 ### Content
 
+- The text in the introduction section was taken from [history.com](https://www.history.com/topics/ancient-egypt/nefertiti)
+- The content for Timeline of Events was researched on [history.com](https://www.history.com/topics/ancient-egypt/nefertiti) and [britannica.com](https://www.britannica.com/biography/Nefertiti)
+- The text on the Artifact Cards and in the detailed artifacts information page was taken from [metmuseum.org](https://www.metmuseum.org/search-results?q=nefertiti+amarna+period&searchFacet=Art)
+- The content for the Bust of Nefertiti on the artifacts gallery was taken from [smb.museum](https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/)
+- The Did You Know facts was taken from [history.com](https://www.history.com/topics/ancient-egypt/nefertiti), [britannica.com](https://www.britannica.com/biography/Nefertiti) and [factinate.com](https://www.factinate.com/people/facts-nefertiti)
+
 ### Media
+
+- The Nefertiti bust images on the artifacts gallery was taken from [smb.museum](https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-bust/)
+- The artifacts images on the gallery page was taken from [metmuseum.org](https://www.metmuseum.org/search-results?q=nefertiti+amarna+period&searchFacet=Art)
+- The video on the Timeline of Events page was taken from [National Geographic Youtube Channel](https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A)
 
 
 
