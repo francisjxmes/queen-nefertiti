@@ -154,7 +154,7 @@ Bugs
 * I went back to the 'Code' tab and refreshed after a couple minutes.
 * On the right sidebar, I went to deployments and viewed my deployed website.
 
-* Live link here: https://francisjxmes.github.io/queen-nefertiti/index.html
+* Live link here: [Queen Nefertiti](https://francisjxmes.github.io/queen-nefertiti/index.html)
 
 ## Credits
 
@@ -179,18 +179,3 @@ Bugs
 - The video on the Timeline of Events page was taken from [National Geographic Youtube Channel](https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A)
 
 
-
-
-example: 
-* The text for the Home page was taken from Wikipedia Article A
-
-* Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-
-* The icons in the footer were taken from Font Awesome
-
-example:
-* The photos used on the home and sign up page are from This Open Source site
-
-* The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
