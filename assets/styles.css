@@ -88,7 +88,7 @@ nav svg {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('assets/images/torso-of-nefertiti-landing.jpg') no-repeat center center/cover;
+    background: url('../assets/images/torso-of-nefertiti-landing.jpg') no-repeat center center/cover;
     border-bottom: 5px solid rgb(120, 88, 56);
     display: flex;
     justify-content: center;
@@ -729,10 +729,6 @@ form button {
 
     .timeline-cta h2 {
         margin-top: 0;
-    }
-
-    .timeline-cta button{
-
     }
 
     /*Media querys for related content layout*/
